@@ -1,17 +1,15 @@
 <script>
-
+import AppHeader from './components/AppHeader.vue';
 export default {
-  data() {
-    return {
-
-    }
-  }
+  name: 'Dc Comics',
+  components: { AppHeader }
 }
 </script>
 
 <template>
   <div class="container">
-    <header></header>
+    <app-header></app-header>
+
     <main></main>
     <footer></footer>
   </div>
@@ -29,7 +27,6 @@ export default {
 /* generics */
 img {
   max-width: 100%;
-  width: 100%;
   height: auto;
 }
 
