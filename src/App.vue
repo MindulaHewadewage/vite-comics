@@ -1,18 +1,18 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 export default {
   name: 'Dc Comics',
-  components: { AppHeader }
+  components: { AppHeader, AppMain }
 }
 </script>
 
 <template>
-  <div class="container">
-    <app-header></app-header>
+  <app-header></app-header>
 
-    <main></main>
-    <footer></footer>
-  </div>
+  <app-main></app-main>
+
+  <footer></footer>
 
 </template>
 
