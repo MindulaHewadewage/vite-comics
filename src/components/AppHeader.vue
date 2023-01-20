@@ -3,7 +3,7 @@ export default {
     name: 'AppHeader',
     data() {
         return {
-            navbarElements: [
+            links: [
                 {
                     text: 'Characters',
                     url: '#',
@@ -67,10 +67,41 @@ export default {
         <figure>
             <a href="#"><img src="../assets/img/dc-logo.png" alt="logo dc"></a>
         </figure>
-        <nav></nav>
+        <nav>
+            <ul>
+                <li v-for="link in links" :key="link.text">
+                    <a :href="link.url">{{ link.text }}</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 </template>
 
-<style>
+<style scoped>
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    font-size: 13px;
+    padding: 15px;
+    text-transform: uppercase;
+
+}
+
+ul li a:hover {
+    color: dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+
+}
 </style>
