@@ -1,9 +1,10 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
 export default {
   name: 'Dc Comics',
-  components: { AppHeader, AppMain }
+  components: { AppHeader, AppMain, AppFooter }
 }
 </script>
 
@@ -12,7 +13,7 @@ export default {
 
   <app-main></app-main>
 
-  <footer></footer>
+  <app-footer></app-footer>
 
 </template>
 
