@@ -61,9 +61,9 @@ export default {
 
 
                 </nav>
-                <!-- <figure>
+                <figure>
                     <a href=" #"><img src="../assets/img/dc-logo-bg.png" alt="logo dc"></a>
-                </figure> -->
+                </figure>
             </div>
         </section>
 
@@ -84,6 +84,12 @@ nav {
     padding-top: 40px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 nav h3 {
     color: white;
@@ -101,5 +107,9 @@ nav li {
 
 ul {
     margin-right: 30px;
+}
+
+figure a img {
+    width: 300px;
 }
 </style>

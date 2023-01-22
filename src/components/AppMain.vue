@@ -19,13 +19,13 @@ export default {
 <style scoped>
 .content {
     min-height: 100px;
-    background-color: black;
+    background-color: #1C1C1C;
     color: white;
     line-height: 100px;
 }
 
 .merchandise {
     min-height: 100px;
-    background-color: dodgerblue;
+    background-color: #0282F9;
 }
 </style>
