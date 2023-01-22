@@ -1,10 +1,10 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue';
+import AppFooterTop from './components/AppFooterTop.vue';
 export default {
   name: 'Dc Comics',
-  components: { AppHeader, AppMain, AppFooter }
+  components: { AppHeader, AppMain, AppFooterTop }
 }
 </script>
 
@@ -13,7 +13,7 @@ export default {
 
   <app-main></app-main>
 
-  <app-footer></app-footer>
+  <app-footer-top></app-footer-top>
 
 </template>
 
@@ -32,7 +32,6 @@ img {
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
@@ -40,5 +39,9 @@ a {
 .container {
   margin: 0 auto;
   max-width: 1200px;
+}
+
+ul li {
+  list-style-type: none;
 }
 </style>

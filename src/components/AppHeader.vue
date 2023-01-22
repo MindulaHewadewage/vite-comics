@@ -97,14 +97,12 @@ ul {
     display: flex;
 }
 
-ul li {
-    list-style-type: none;
-}
 
 ul li a {
     font-size: 13px;
     padding: 15px;
     text-transform: uppercase;
+    color: black;
 
 }
 
