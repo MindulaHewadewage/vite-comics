@@ -13,8 +13,8 @@ export default {
             <div class="container">
                 <nav>
                     <div class="comics-shop">
+                        <h3>DC COMICS</h3>
                         <ul class="comics-list">
-                            <li><a href="#" class="cat-title">DC COMICS</a></li>
                             <li><a href="#">Characters</a></li>
                             <li><a href="#">Comics</a></li>
                             <li><a href="#">Movies</a></li>
@@ -24,16 +24,16 @@ export default {
                             <li><a href="#">News</a></li>
                         </ul>
 
+                        <h3>SHOP</h3>
                         <ul class="shop-list">
-                            <li><a href="#" class="cat-title">SHOP</a></li>
                             <li><a href="#">Shop DC</a></li>
                             <li><a href="#">Shop DC Collectibles</a></li>
                         </ul>
                     </div>
 
                     <div class="dc">
+                        <h3>DC</h3>
                         <ul class="dc-list">
-                            <li><a href="#" class="cat-title">DC</a></li>
                             <li><a href="#">Terms Of Use</a></li>
                             <li><a href="#">Privacy policy (New)</a></li>
                             <li><a href="#">Ad Choices</a></li>
@@ -49,8 +49,8 @@ export default {
                     </div>
 
                     <div class="sites">
+                        <h3>SITES</h3>
                         <ul class="sites-list">
-                            <li><a href="#" class="cat-title">SITES</a></li>
                             <li><a href="#">DC</a></li>
                             <li><a href="#">MAD Magazine</a></li>
                             <li><a href="#">DC Kids</a></li>
@@ -81,12 +81,14 @@ export default {
 
 nav {
     display: flex;
+    padding-top: 40px;
 }
 
 
-.cat-title {
+nav h3 {
     color: white;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 nav a {
@@ -94,6 +96,10 @@ nav a {
 }
 
 nav li {
-    padding: 3px;
+    padding: 3px 0;
+}
+
+ul {
+    margin-right: 30px;
 }
 </style>
