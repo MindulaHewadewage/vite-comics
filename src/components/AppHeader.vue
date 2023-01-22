@@ -89,7 +89,7 @@ export default {
 
 header {
     min-height: 100px;
-    background-color: red;
+
 }
 
 
