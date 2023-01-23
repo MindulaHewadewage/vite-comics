@@ -28,7 +28,6 @@ export default {
 
 <style scoped>
 .footer-bottom {
-    min-height: 115px;
     background-color: #303030;
     position: fixed;
     bottom: 0;
@@ -38,7 +37,7 @@ export default {
 }
 
 .container {
-    height: 115px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
