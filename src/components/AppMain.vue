@@ -1,6 +1,11 @@
 <script>
+import ThumbElement from './thumbs/ThumbElement.vue';
 export default {
     name: 'AppMain',
+    components: { ThumbElement },
+    props: {
+        thumbs: Array
+    },
     data() {
         return {
             thumbs: [
@@ -99,7 +104,7 @@ export default {
     <main>
         <section class="content">
             <div class="container card-container">
-
+                <thumb-element v-for="thumb in thumbs" :key="thumb.series" :thumb="thumb"></thumb-element>
             </div>
 
         </section>
