@@ -100,14 +100,6 @@ export default {
         <section class="content">
             <div class="container card-container">
 
-
-                <div v-for="thumb in thumbs" :key="thumb.series" class="comic-card">
-                    <img :src="thumb.thumb" :alt="thumb.series">
-                    <h3>{{ thumb.series }}</h3>
-                </div>
-
-
-
             </div>
 
         </section>
@@ -136,20 +128,9 @@ export default {
     flex-basis: calc(100% / 6)
 }
 
-.comic-card img {
 
-    object-fit: cover;
-    height: 150px;
-    width: 150px;
 
-}
 
-.comic-card h3 {
-    text-transform: uppercase;
-    font-size: 13px;
-    padding: 10px 0;
-    color: lightgrey;
-}
 
 
 // merchandise
