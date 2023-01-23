@@ -21,33 +21,6 @@ export default {
 
 </template>
 
-<style>
-/* reset */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/* generics */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-
-a {
-  text-decoration: none;
-}
-
-/* utils */
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-ul li {
-  list-style-type: none;
-}
+<style lang="scss">
+@use './assets/scss/style.scss';
 </style>

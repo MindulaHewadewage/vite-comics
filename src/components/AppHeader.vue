@@ -87,10 +87,7 @@ export default {
     align-items: center;
 }
 
-header {
-    min-height: 100px;
 
-}
 
 
 ul {

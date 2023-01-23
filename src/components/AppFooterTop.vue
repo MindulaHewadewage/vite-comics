@@ -75,7 +75,7 @@ export default {
 
 <style scoped>
 .footer-top {
-    min-height: 350px;
+
     background-image: url(../assets/img/footer-bg.jpg);
 }
 
